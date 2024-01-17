@@ -39,7 +39,7 @@
     var mixedArray = [1, "two", true];
     console.log(mixedArray + " - "+ typeof(mixedArray));
     // Objects
-    var movieObject = {
+    var movieObj = {
         movieName: "Star Wars",
         RunTime: 121,
         writers: {
@@ -48,8 +48,4 @@
         },
         movieYear: 1977,
     };
-    var object1 = {name: "John", age: 21};
-    console.log(object1 + " - "+ typeof(object1));
-    var object2 = {name: "John", age: 21};
-    console.log(object2 + " - "+ typeof(object2));
     // STEP 5: Typing (JavaScript is a loosely-typed language)

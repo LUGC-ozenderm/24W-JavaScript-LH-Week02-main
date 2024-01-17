@@ -23,7 +23,8 @@
     // Numbers
 
     // Strings (use '' or "")
-
+    var string1 = "Hello, how are you?";
+    console.log(string1 + " - "+ typeof(string1));
     // Booleans
 
     // Arrays

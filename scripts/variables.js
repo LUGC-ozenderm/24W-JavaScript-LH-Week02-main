@@ -4,9 +4,9 @@
     var myName;
     var myAge;
 
-    myName = "stain";
+    var myName = "stain";
     console.log(myName + " - "+ typeof(myAge));
-    myAge = 21;
+    var myAge = 21;
     console.log(myAge + " - "+ typeof(myName));
 
     /* STEP 2: Initialize variables
@@ -15,13 +15,13 @@
     myAge = "eighty";
     /* STEP 3: Updating variables
 	Once a variable has been declared, this can be done any time */
+    myAge = 21;
+    // STEP 4: Variable types
+    // Numbers
     var num1 = 20;
     console.log(num1 + " - "+ typeof(num1));
     var num2 = 19.999999999999;
     console.log(num2 + " - "+ typeof(num2));
-    // STEP 4: Variable types
-    // Numbers
-
     // Strings (use '' or "")
 
     // Boolean

@@ -23,11 +23,23 @@
     // Numbers
 
     // Strings (use '' or "")
-
+    var string1 = "Hello, how are you?";
+    console.log(string1 + " - "+ typeof(string1));
+    var string2 = 'Hello, how are you?';
+    console.log(string2 + " - "+ typeof(string2));
     // Booleans
-
+    var bool1 = true;
+    console.log(bool1 + " - "+ typeof(bool1));
+    var bool2 = false;
+    console.log(bool2 + " - "+ typeof(bool2));
     // Arrays
-
+    var array1 = [1,2,3];
+    console.log(array1 + " - "+ typeof(array1));
+    var array2 = ["one","two","three"];
+    console.log(array2 + " - "+ typeof(array2));
     // Objects
-
+    var object1 = {name: "John", age: 21};
+    console.log(object1 + " - "+ typeof(object1));
+    var object2 = {name: "John", age: 21};
+    console.log(object2 + " - "+ typeof(object2));
     // STEP 5: Typing (JavaScript is a loosely-typed language)

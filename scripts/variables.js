@@ -39,6 +39,15 @@
     var mixedArray = [1, "two", true];
     console.log(mixedArray + " - "+ typeof(mixedArray));
     // Objects
+    var movieObject = {
+        movieName: "Star Wars",
+        RunTime: 121,
+        writers: {
+            leadWriter: "George Lucas",
+            assistant: "Gary Kurtz"
+        },
+        movieYear: 1977,
+    };
     var object1 = {name: "John", age: 21};
     console.log(object1 + " - "+ typeof(object1));
     var object2 = {name: "John", age: 21};

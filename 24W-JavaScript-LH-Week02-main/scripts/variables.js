@@ -5,7 +5,9 @@
     var myAge;
 
     myName = "skid stain";
-    console.log(typeof (myName));
+    console.log(myName + " - "+ typeof(myAge));
+    myAge = 21;
+    console.log(myAge + " - "+ typeof(myName));
     /* STEP 2: Initialize variables
 	Don't confuse a variable with no value with one that doesn't exist at all */
 

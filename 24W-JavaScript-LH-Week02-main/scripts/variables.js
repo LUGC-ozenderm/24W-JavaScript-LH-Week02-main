@@ -4,7 +4,7 @@
     var myName;
     var myAge;
 
-    myName = "skid stain";
+    myName = "stain";
     console.log(myName + " - "+ typeof(myAge));
     myAge = 21;
     console.log(myAge + " - "+ typeof(myName));

@@ -23,11 +23,8 @@
     // Numbers
 
     // Strings (use '' or "")
-    var string1 = "Hello, how are you?";
-    console.log(string1 + " - "+ typeof(string1));
-    var string2 = 'Hello, how are you?';
-    console.log(string2 + " - "+ typeof(string2));
-    // Booleans
+
+    // Boolean
     var bool1 = true;
     console.log(bool1 + " - "+ typeof(bool1));
     var bool2 = false;
